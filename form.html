@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Macarons House: Order Form</title>
+    <link rel="icon" href="/assets/1.svg" type="image/x-icon.">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img class="me-3" src="/assets/1.svg" alt height="35" width="35">
+            <a class="navbar-brand" href="index.html">The Macarons House</a> <button
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#hours">Hours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="form" class="form py-5">
+        <div class="container mt-5 mb-5">
+            <h2 class="section-title6 text-center mb-3">Order Form 🍰</h2>
+
+            <form action="landing.html">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-6">
+
+                        <div class="form-box p-4">
+
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" name="name" id="name" placeholder="Name..." class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" email="email" id="email" placeholder="Email" class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="phone" phone="phone" id="phone" placeholder="Phone" class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="address" address="address" id="address" placeholder="Address" class="form-control"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Quantity</label>
+                                <input type="number" class="form-control" required>
+                            </div>
+
+                            <label>Flavor</label><br>
+                            <input type="radio" name="flavor"> Strawberry
+                            <input type="radio" name="flavor"> Matcha
+
+                            <br><br>
+
+                            <label>Toppings</label><br>
+                            <input type="checkbox"> Extra Cream
+                            <input type="checkbox"> Sprinkles
+
+                            <br><br>
+
+                            <div class="form-group">
+                                <label>Payment Method</label>
+                                <select class="form-control">
+                                    <option>Cash</option>
+                                    <option>Transfer</option>
+                                    <option>E-Wallet</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn btn-pink">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
